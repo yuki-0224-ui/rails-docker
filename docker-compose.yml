@@ -12,7 +12,7 @@ services:
     ports:
       - '3000:3000'
     environment:
-      - 'DATABASE_PASSWORD=postgres'
+      - DATABASE_PASSWORD=postgres
     volumes:
       - .:/myapp
     tty: true
@@ -25,7 +25,7 @@ services:
     image: postgres:12
     platform: linux/amd64
     volumes:
-      - 'db-data:/var/lib/postgresql/data'
+      - db-data:/var/lib/postgresql/data
     environment:
-      - 'POSTGRES_PASSWORD=postgres'
-      - 'POSTGRES_USER=postgres'
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
