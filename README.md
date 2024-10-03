@@ -1,24 +1,13 @@
-# README
+## 環境
+- Ruby: 3.2.2
+- Rails: 7.0.6
+- Postgres: 12
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## セットアップ
+1. 以下のコマンドを実行してください。
+```
+$ git clone https://github.com/yuki-0224-ui/rails-docker.git && cd /rails-docker
+$ ./start.sh
+```
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+2. ブラウザで'localhost:3000'にアクセスしてください。
